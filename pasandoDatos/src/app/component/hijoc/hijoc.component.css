@@ -1,0 +1,17 @@
+button{
+    font-size: 30px;
+    background-color: bisque;
+    padding: 30px;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+ label{
+    font-size: 90px;
+    margin-left: 70px;
+    vertical-align: 80px;
+ 
+}
+p{
+    font-size: 20px;
+   }
+ 
