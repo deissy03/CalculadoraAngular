@@ -1,6 +1,6 @@
 
   
-<app-hijoc (contadorHijoChange)="recibirContadorHijo($event)"></app-hijoc><!--dentro del parentesis recibo lo qu esta en el output, luego llamo la funcion que cree en el vomponente padre js que se encarga de recibir los datos del contador y dentro de la funcion invoco al evento-->
+<app-hijoc (contadorHijo)="recibirContadorHijo($event)"></app-hijoc><!--dentro del parentesis recibo lo qu esta en el output, luego llamo la funcion que cree en el vomponente padre js que se encarga de recibir los datos del contador y dentro de la funcion invoco al evento-->
 <p>padre-calculadora!</p>
  <label> {{ contador1 }}</label><!--aqui traigo la informacion del hijo que en padre lo llame contador1-->
 
